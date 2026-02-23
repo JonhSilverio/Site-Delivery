@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promos | MoraBurger</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">Mora<span>Burger</span></a>
+            <div class="search-container" style="visibility: hidden; pointer-events: none;"><input type="text"></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" onclick="toggleDropdownMobile(event)" style="color:var(--cor-destaque-start)">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="combos.html">Combos</a></li>
+                            <li><a href="promocoes.html">Promos</a></li>
+                            <li><a href="destaques.html">Best Sellers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sobre_nos.html">About</a></li>
+                    <li><button class="btn-destaque" onclick="toggleContato()">Contact</button></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-icon" onclick="toggleMenu()"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="menu-section" style="padding-top: 50px;">
+            <div class="container">
+                <h2 class="titulo-categoria">💸 Flash <span style="color:var(--cor-destaque-start)">Promos</span></h2>
+                <div id="grade-produtos" class="grade-produtos" data-categoria="promocoes"></div>
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="index.html" class="btn-hero" style="font-size: 1rem; padding: 10px 30px;">Back to Home</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer"><div class="container"><p>&copy; 2025 MoraBurger.</p></div></footer>
+    <button class="botao-flutuante-carrinho" onclick="toggleCarrinho()"><i class="fas fa-shopping-cart"></i><div id="contador-carrinho">0</div></button>
+    <div class="carrinho-container" id="carrinho-modal">
+        <div class="carrinho-header"><h3>Your Order</h3><i class="fas fa-times" onclick="toggleCarrinho()"></i></div>
+        <div class="carrinho-itens" id="lista-itens-carrinho"></div>
+        <div class="carrinho-footer">
+            <div class="total-texto">Total: <span id="total-carrinho">$ 0.00</span></div>
+            <input type="text" id="nome-cliente" placeholder="Your Name" class="input-dados">
+            <input type="text" id="endereco-cliente" placeholder="Address" class="input-dados">
+            <select id="forma-pagamento" class="input-dados"><option>Pix</option><option>Credit Card</option><option>Cash</option></select>
+            <button class="btn-whatsapp-finalizar" onclick="finalizarPedidoWhatsapp()"><i class="fab fa-whatsapp"></i> Send Order</button>
+        </div>
+    </div>
+    
+    <div id="modal-contato" class="modal-overlay">
+        <div class="modal-box">
+            <i class="fas fa-times close-modal" onclick="toggleContato()"></i>
+            <h3>Follow Us</h3>
+            <p>Stay updated with our news:</p>
+            <div class="social-links">
+                <a href="#" target="_blank" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#" target="_blank" class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
