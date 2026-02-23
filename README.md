@@ -18,7 +18,7 @@
 > **Note:** Here is a sneak peek of the application interface.
 
 <p align="center">
-  <img src="./imagens/print-pc.png" alt="Home Page Preview" width="800">
+  <img src="./imagens/home-delivery.png" alt="Home Page Preview" width="800">
 </p>
 
 <div align="center">
