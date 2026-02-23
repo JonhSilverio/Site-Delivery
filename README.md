@@ -61,7 +61,7 @@ I specialize in bridging the gap between complex technical challenges and scalab
 
 Looking for a custom website, web app, or smart AI integration? Let's talk!
 
-<a href="https://api.whatsapp.com/send/?phone=5511992377702/"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
+<a href="https://wa.me/5511992377702"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
 <a href="https://www.instagram.com/morastack/?next=%2Freels%2FDPJ6yFbjqsm%2F"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
 <a href="https://github.com/JonhSilverio"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 
