@@ -22,7 +22,7 @@
 </p>
 
 <div align="center">
-  <img src="./imagens/print-mobile.PNG" alt="Mobile View Preview" width="250">
+  <img src="./imagens/print-mobile.png" alt="Mobile View Preview" width="250">
   <img src="./imagens/print-carrinho.png" alt="Shopping Cart Preview" width="250">
 </div>
 
