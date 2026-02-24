@@ -18,11 +18,11 @@
 > **Note:** Here is a sneak peek of the application interface.
 
 <p align="center">
-  <img src="./imagens/home-delivery.png" alt="Home Page Preview" width="800">
+  <img src="./imagens/home-delivery.PNG" alt="Home Page Preview" width="800">
 </p>
 
 <div align="center">
-  <img src="./imagens/print-mobile.png" alt="Mobile View Preview" width="250">
+  <img src="./imagens/print-mobile.PNG" alt="Mobile View Preview" width="250">
   <img src="./imagens/print-carrinho.png" alt="Shopping Cart Preview" width="250">
 </div>
 
